@@ -43,8 +43,10 @@
     <div id="login_fila_estado" {$ESTILO_FILA_ESTADO_LOGIN}>
       <!-- Loading -->
       <div align="center" id="login_icono_espera" height='1' class="callout callout-info">
-        <img id="reloj" src="modules/{$MODULE_NAME}/images/loading.gif" border="0" alt="">
         <!-- MSG DE ESPERA -->
+        <div align="center">
+          <i class="fa fa-spinner fa-spin" style="font-size: 22px;"></i>
+        </div>
         <div align="center" style="font-weight: bold;" id="login_msg_espera">
           {$MSG_ESPERA}
         </div>
