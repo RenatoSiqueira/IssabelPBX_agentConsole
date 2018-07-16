@@ -813,19 +813,19 @@ function abrir_url_externo(urlopentype, url)
 		switch (urlopentype) {
 			case 'iframe':
 				if (jqueryui_tabs_use_refresh) {
-					$('#issabel-callcenterContent').find('.ui-tabs-nav li.tab-externalurl').remove();
+					$('#issabel-callcenterContent').find('li.tab-externalurl').remove();
 					$('#tabs-externalurl').remove();
 
 					// Se agrega la nueva cejilla, si existe
 					if (url != null) {
-						$('<li><a href="#tabs-externalurl" data-toggle="tab">'+externalurl_title+'</a></li>')
-							.appendTo('#issabel-callcenterContent');
 						$('#tab-content')
 							.append('<div class="tab-pane" id="tabs-externalurl" style="padding: 0; border: 0; width: 100%; height: 100%"><iframe scrolling="auto" height="600px" frameborder="0" width="100%" src="' + url + '" /></div>');
+						$('<li class="tab-externalurl"><a href="#tabs-externalurl" data-toggle="tab">'+externalurl_title+'</a></li>')
+							.appendTo('#issabel-callcenterContent');
 					}
 
 				    // Aplicar cambios
-					//$('#issabel-callcenterContent').tabs('refresh');
+					$('#issabel-callcenterContent').tabs('refresh');
 				} else {
 					externalurl = url;
 					$('#issabel-callcenterContent').tabs('remove', '#tabs-externalurl');
