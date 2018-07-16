@@ -1,0 +1,130 @@
+/*=== Posicao ===*/
+.lockscreen-wrapper {
+    padding: 2rem 0;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/*=== Main Form ===*/
+.login-form-1 {
+    width: 400px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.main-login-form {
+    position: relative;
+}
+.login-form-1 .form-control {
+    border: 0;
+    box-shadow: 0 0 0;
+    border-radius: 0;
+    background: transparent;
+    color: #555555;
+    padding: 7px 0;
+    font-weight: bold;
+    height:auto;
+    width: 100%;
+}
+.login-form-1 .form-control::-webkit-input-placeholder {
+    color: #999999;
+}
+    .login-form-1 .form-control:-moz-placeholder,
+    .login-form-1 .form-control::-moz-placeholder,
+    .login-form-1 .form-control:-ms-input-placeholder {
+    color: #999999;
+}
+.login-form-1 .form-group {
+    margin-bottom: 0;
+    border-bottom: 2px solid #efefef;
+    padding-right: 20px;
+    position: relative;
+}
+.login-form-1 .form-group:last-child {
+    border-bottom: 0;
+}
+.login-group {
+    background: #ffffff;
+    color: #999999;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+.login-group-checkbox {
+    padding: 5px 0;
+}
+
+.positionLabel {
+    margin-top: 5px;
+}
+
+/*=== MSG BOX ===*/
+.callout {
+    text-align: left;
+    border-radius: 3px;
+    margin: 0 0 10px 0;
+    padding: 15px 15px 15px 15px;
+    border-left: 5px solid #eee;
+    border-radius: 8px;
+}
+.callout.callout-danger,
+.callout.callout-info {
+    color: #fff !important;
+}
+.callout.callout-danger {
+    background-color: #dd4b39 !important;
+}
+.callout.callout-info {
+    background-color: #00c0ef !important;
+}
+.callout h4 {
+    margin: 0;
+    font-weight: 600;
+}
+.callout p:last-child {
+    margin: 0;
+}
+.callout.callout-danger {
+    border-color: #c23321;
+}
+.callout.callout-info {
+    border-color: #0097bc;
+}
+
+/*=== Login Button ===*/
+.login-form-1 .login-button {
+    position: absolute;
+    right: -39px;
+    top: 35%;
+    background: #ffffff;
+    color: #999999;
+    padding: 11px 0;
+    width: 7rem;
+    height: 7rem;
+    margin-top: -25px;
+    border: 5px solid #efefef;
+    border-radius: 50%;
+    transition: all ease-in-out 500ms;
+}
+.login-form-1 .login-button:hover {
+    color: #555555;
+    transform: rotate(450deg);
+}
+.login-form-1 .login-button.clicked {
+    color: #555555;
+}
+.login-form-1 .login-button.clicked:hover {
+    transform: none;
+}
+.login-form-1 .login-button.clicked.success {
+    color: #2ecc71;
+}
+.login-form-1 .login-button.clicked.error {
+    color: #e74c3c;
+}
+
+/*=== LOGO ===*/
+.logo {
+    padding: 15px 0;
+    font-size: 25px;
+    color: #aaaaaa;
+    font-weight: bold;
+}
