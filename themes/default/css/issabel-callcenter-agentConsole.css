@@ -227,3 +227,9 @@ div.neo-module-content *, div.neo-module-content *::before, div.neo-module-conte
 .positionButtonForm {
   margin-left: 35%;
 }
+
+/*== BUTTON BREAK ==*/
+.issabel-callcenter-boton-unbreak {
+      border-color: rgb(118, 28, 25) !important;
+      background-color: rgb(172, 41, 37) !important;
+}
