@@ -724,7 +724,7 @@ function manejarRespuestaStatus(respuesta)
 			$('#btn_transfer').button('enable');
 			$('#issabel-callcenter-cronometro').text(respuesta[i].cronometro);
 			$('#issabel-callcenter-llamada-info')
-			    .css('color', '')
+			    .css('background-color', '')
 				.empty()
 				.append(respuesta[i].llamada_informacion);
 			$('#issabel-callcenter-llamada-script')
@@ -771,7 +771,7 @@ function manejarRespuestaStatus(respuesta)
 
 	        // Vaciar las áreas para la llamada
 			$('#issabel-callcenter-llamada-script').empty();
-			$('#issabel-callcenter-llamada-info').css("color", "#778899");
+			$('#issabel-callcenter-llamada-info').css("background-color", "rgb(232, 232, 232)");
 			break;
 		case 'waitingenter':
 			estadoCliente.waitingcall = true;
