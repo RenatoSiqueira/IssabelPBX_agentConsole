@@ -677,7 +677,7 @@ function manejarRespuestaStatus(respuesta)
 				.removeClass('issabel-callcenter-class-estado-activo')
 				.removeClass('issabel-callcenter-class-estado-esperando')
 				.addClass(respuesta[i].class_estado_agente_inicial);
-				console.log('LOG', respuesta[i].class_estado_agente_inicial)
+				//console.log('LOG', respuesta[i].class_estado_agente_inicial)
 		if (respuesta[i].timer_seconds != null) {
 			if (respuesta[i].timer_seconds !== '') {
 				iniciar_cronometro(respuesta[i].timer_seconds);
@@ -821,7 +821,7 @@ function abrir_url_externo(urlopentype, url)
 					}
 
 				    // Aplicar cambios
-					$('#issabel-callcenterContent').tabs('refresh');
+					//NOT USED $('#issabel-callcenterContent').tabs('refresh');
 				} else {
 					externalurl = url;
 					$('#issabel-callcenterContent').tabs('remove', '#tabs-externalurl');

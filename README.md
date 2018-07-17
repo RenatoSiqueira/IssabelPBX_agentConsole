@@ -1,17 +1,15 @@
 
-TO-DO List:
-- Corrigir MSGs de Aviso/Erro ao Logar
-- Aplicar Visual no Formulario
-- Alterar Visuais/Msg ao Pausar
-- README.md Decente
-
-
 # IssabelPBX_agentConsole
 
 ##### EN:
 - This is a my version about agent_console of IssabelPBX (asterisk): Call Center Module
 ##### BR: 
 - Uma nova roupagem para o antigo módulo agent_console do Issabel/Elastix PBX
+
+##### TO-DO List:
+- Corrigir MSGs de Aviso/Erro ao Logar
+- Aplicar Visual no Formulario
+- README.md Decente
 
 ## ScreenShots
 - _New Login Design_  
