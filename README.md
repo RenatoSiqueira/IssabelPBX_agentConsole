@@ -4,9 +4,11 @@
 ##### EN:
 - This is a my version about agent_console of IssabelPBX (asterisk): Call Center Module
 ##### BR: 
-- Uma nova roupagem para o antigo módulo agent_console do Issabel/Elastix PBX
+- Uma nova roupagem para o antigo módulo agent_console do Issabel PBX
 
-# TO-DO List:
+##### Attention: No compatible with Elastix.
+
+## TO-DO List:
 - Need fix to error/info box messages in login_agent.tpl
 - Need apply visual layout in agent_console_atributos.tpl
 - Apply new layouts to BREAK_DIALOG, TRANSFER_DIALOG and SCHEDULE_CALL
