@@ -27,10 +27,10 @@ TO-DO List:
 ![Agent Painel - Break](https://github.com/RenatoSiqueira/IssabelPBX_agentConsole/blob/master/assets/consoleAgentBreak.png)
 
 - _Agent Painel - Script_  
-![Agent Painel - Script](https://github.com/RenatoSiqueira/IssabelPBX_agentConsole/blob/master/assets/newLoginScript.png)
+![Agent Painel - Script](https://github.com/RenatoSiqueira/IssabelPBX_agentConsole/blob/master/assets/consoleAgentScript.png)
 
 - _Agent Painel - External URL_  
-![Agent Painel - External Url](https://github.com/RenatoSiqueira/IssabelPBX_agentConsole/blob/master/assets/newLoginExternal.png)
+![Agent Painel - External Url](https://github.com/RenatoSiqueira/IssabelPBX_agentConsole/blob/master/assets/consoleAgentExternal.png)
 
 ## Getting Started
 
