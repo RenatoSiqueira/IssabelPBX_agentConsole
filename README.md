@@ -13,11 +13,24 @@ TO-DO List:
 ##### BR: 
 - Uma nova roupagem para o antigo módulo agent_console do Issabel/Elastix PBX
 
-## Features
-- New Login Design  
+## ScreenShots
+- _New Login Design_  
 ![New Login Design](https://github.com/RenatoSiqueira/IssabelPBX_agentConsole/blob/master/assets/newLogin.png)
-- New Login Design - Error  
+
+- _New Login Design - Error_  
 ![New Login Design Error](https://github.com/RenatoSiqueira/IssabelPBX_agentConsole/blob/master/assets/newLoginErr.png)
+
+- _Agent Painel_  
+![Agent Painel](https://github.com/RenatoSiqueira/IssabelPBX_agentConsole/blob/master/assets/consoleAgent.png)
+
+- _Agent Painel - Break_  
+![Agent Painel - Break](https://github.com/RenatoSiqueira/IssabelPBX_agentConsole/blob/master/assets/consoleAgentBreak.png)
+
+- _Agent Painel - Script_  
+![Agent Painel - Script](https://github.com/RenatoSiqueira/IssabelPBX_agentConsole/blob/master/assets/newLoginScript.png)
+
+- _Agent Painel - External URL_  
+![Agent Painel - External Url](https://github.com/RenatoSiqueira/IssabelPBX_agentConsole/blob/master/assets/newLoginExternal.png)
 
 ## Getting Started
 
