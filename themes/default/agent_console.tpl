@@ -56,8 +56,8 @@
         <div class="col-xs-12 col-sm-6 col-md-8 agentStatusPosition">
             {* NAME / STATUS / TIMER *}
             <span class="agentStatusName">{$title}</span><br/>
-            <span class="">
-                <strong>Status:</strong> {$TEXTO_ESTADO_AGENTE_INICIAL} (<span id="issabel-callcenter-cronometro">{$CRONOMETRO}</span>)
+            <span>
+                <strong>Status:</strong> <span id="issabel-callcenter-estado-agente-texto">{$TEXTO_ESTADO_AGENTE_INICIAL}</span> (<span id="issabel-callcenter-cronometro">{$CRONOMETRO}</span>)
             </span>
         </div>
         <div class="col-xs-6 col-md-4 logoutOption">
