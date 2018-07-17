@@ -90,11 +90,6 @@ $(document).ready(function() {
         }
     }
 
-    if ($('#issabel-callcenter-llamada-paneles').length > 0) {
-        $('#issabel-callcenter-llamada-paneles').layout({fxName: 'none', west: { size: 300 }});
-        $('#issabel-callcenter-llamada-paneles-izq').layout({fxName: 'none', south: { size: 250 }});
-    }
-
     // Operaciones que deben de repetirse al obtener formulario vía AJAX
     apply_form_styles();
 
@@ -682,6 +677,7 @@ function manejarRespuestaStatus(respuesta)
 				.removeClass('issabel-callcenter-class-estado-activo')
 				.removeClass('issabel-callcenter-class-estado-esperando')
 				.addClass(respuesta[i].class_estado_agente_inicial);
+				console.log('LOG', respuesta[i].class_estado_agente_inicial)
 		if (respuesta[i].timer_seconds != null) {
 			if (respuesta[i].timer_seconds !== '') {
 				iniciar_cronometro(respuesta[i].timer_seconds);
