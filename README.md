@@ -6,10 +6,9 @@
 ##### BR: 
 - Uma nova roupagem para o antigo módulo agent_console do Issabel/Elastix PBX
 
-##### TO-DO List:
-- Corrigir MSGs de Aviso/Erro ao Logar
-- Aplicar Visual no Formulario
-- README.md Decente
+# TO-DO List:
+- Need fix to error/info box messages in login_agent.tpl
+- Need apply visual layout in agent_console_atributos.tpl
 
 ## ScreenShots
 - _New Login Design_  
@@ -32,54 +31,12 @@
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+We consider that the user is using IssabelPBX with the already installed callcenter module.
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+With ftp access, locate the /var/www/html/modules/agent_console directory and replace index.php and themes folder.
+In browser, only refresh the page (or re-open)
 
 ## Built With
 
