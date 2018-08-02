@@ -12,6 +12,7 @@
 - Need fix to error/info box messages in login_agent.tpl
 - Need apply visual layout in agent_console_atributos.tpl
 - Apply new layouts to BREAK_DIALOG, TRANSFER_DIALOG and SCHEDULE_CALL
+- [Reported] Some tests with CallBack Login
 
 ## ScreenShots
 - _New Login Design_  
