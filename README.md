@@ -13,6 +13,18 @@
 - Need apply visual layout in agent_console_atributos.tpl
 - Apply new layouts to BREAK_DIALOG, TRANSFER_DIALOG and SCHEDULE_CALL
 
+## Bonus 
+- *Works Only in Portuguese (Sorry!)*
+- Adicionado um recurso de "Esconder Agentes Offlines"
+![Bonus Feature](https://github.com/RenatoSiqueira/IssabelPBX_agentConsole/blob/master/assets/bonusFeature.gif)
+
+- Dentro da pasta Bonus, o arquivo para substituir em:
+```
+/var/www/html/modules/campaign_monitoring/themes/default
+```
+
+
+
 ## ScreenShots
 - _New Login Design_  
 ![New Login Design](https://github.com/RenatoSiqueira/IssabelPBX_agentConsole/blob/master/assets/newLogin.png)
