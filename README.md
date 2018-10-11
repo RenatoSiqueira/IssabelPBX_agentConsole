@@ -15,16 +15,16 @@
 - [Reported] Some tests with CallBack Login
 
 ## Bonus 
-- *Works Only in Portuguese (Sorry!)*
-- Adicionado um recurso de "Esconder Agentes Offlines"
+- EN: Added new feature "Hide Offline Agents"
+- BR: Adicionado um recurso de "Esconder Agentes Offlines"
+
 ![Bonus Feature](https://github.com/RenatoSiqueira/IssabelPBX_agentConsole/blob/master/assets/bonusFeature.gif)
 
-- Dentro da pasta Bonus, o arquivo para substituir em:
+- EN: Inside Bonus folder, copy all files to replace in:
+- BR: Dentro da pasta Bonus, sobreescreva os arquivos em:
 ```
 /var/www/html/modules/campaign_monitoring/themes/default
 ```
-
-
 
 ## ScreenShots
 - _New Login Design_  
